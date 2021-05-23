@@ -22,7 +22,10 @@ a:hover {
 }
 
 /* Section Styles */
-
+#experience{
+  font-family: 'Roboto', sans-serif;
+  color:black;
+}
 .main-nav {
   width: 100%;
   background: black;
@@ -57,7 +60,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/Seoul-1024x602.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -86,7 +89,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: pink;
 }
 .card {
   margin: 30px;
@@ -110,14 +113,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background:rgb(235, 119, 139);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: hsl(19, 100%, 51%);
 }
 
 footer {
@@ -151,9 +154,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
