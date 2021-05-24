@@ -22,9 +22,10 @@ a:hover {
 }
 
 /* Section Styles */
-#experience{
+.experience{
   font-family: 'Roboto', sans-serif;
   color:black;
+  background-color:pink;
   float:right;
 }
 .main-nav {
