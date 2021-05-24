@@ -25,8 +25,7 @@ a:hover {
 .experience{
   font-family: 'Roboto', sans-serif;
   color:black;
-  background-color:pink;
-  float:right;
+  text-align: start;
 }
 .main-nav {
   width: 100%;
